@@ -1,6 +1,10 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("My New STREAMLIT app")
+
+st.write("Welcome to my new app!!!")
+
+
+data = st.slider("Select a value", 0, 100, 50)
+
+st.write("You selected:", data)
